@@ -62,12 +62,12 @@ export function App() {
         </div>
       </div>
       <div className="flex-1">
-        <div className="flex flex-col pt-20 md:px-[5%] lg:max-w-[70rem]">
-          <div className="flex flex-col gap-10 px-4 pb-20 justify-center md:flex-row-reverse md:justify-between">
-            <div className="flex flex-col w-[750px] lg:w-[622px] pt-10">
+        <div className="flex flex-col overflow-x-clip lg:items-center">
+          <div className="flex flex-col gap-36 px-4 pb-20 pt-20 md:flex-row-reverse md:justify-between">
+            <div className="flex flex-col w-[500px] lg:w-[450px]">
               <img src={VetorHome} alt="VetorHome" />
             </div>
-            <div className="flex flex-col gap-7 lg:justify-center px-20">
+            <div className="flex flex-col gap-7">
               <h1 className="font-bold text-cyan-950 text-3xl">
                 Hi, I’m Ruan Perroní!
               </h1>
@@ -121,8 +121,7 @@ export function App() {
             </div>
           </div>
         </div>
-
-        <div className=""></div>
+        <div className="flex flex-col h-px bg-slate-700 mx-auto max-w-4xl my-12 space-y-6 px-5"></div>
       </div>
     </div>
   );
