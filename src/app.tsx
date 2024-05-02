@@ -1,6 +1,7 @@
 "use client";
 
 import { SunIcon } from "lucide-react";
+import VetorHome from "./assets/VetorHome.png";
 
 export function App() {
   return (
@@ -61,8 +62,11 @@ export function App() {
         </div>
       </div>
       <div className="flex-1">
-        <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
-          <div className="flex flex-col gap-10 px-4 justify-center md:justify-between pt-20">
+        <div className="flex flex-col pt-20 md:px-[5%] lg:max-w-[70rem]">
+          <div className="flex flex-col gap-10 px-4 pb-20 justify-center md:flex-row-reverse md:justify-between">
+            <div className="flex flex-col w-[750px] lg:w-[622px] pt-10">
+              <img src={VetorHome} alt="VetorHome" />
+            </div>
             <div className="flex flex-col gap-7 lg:justify-center px-20">
               <h1 className="font-bold text-cyan-950 text-3xl">
                 Hi, I’m Ruan Perroní!
@@ -117,6 +121,8 @@ export function App() {
             </div>
           </div>
         </div>
+
+        <div className=""></div>
       </div>
     </div>
   );
