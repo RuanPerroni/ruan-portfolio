@@ -138,6 +138,35 @@ export function App() {
           </div>
         </div>
         <div className="flex flex-col h-px bg-slate-700 mx-auto max-w-4xl my-12 space-y-6 px-5"></div>
+        <div className="flex flex-col overflow-x-clip gap-36 pb-20 pt-10 max-w-auto px-[5%]">
+          <div className="flex flex-col md:justify-between px-60">
+            <h1 className="font-black text-cyan-400 text-5xl px-20">
+              About me
+            </h1>
+            <div className="flex flex-col gap-7 px-20 md:justify-between">
+              <div className="flex flex-col rounded-md h-3 bg-cyan-400 max-w-[20rem] mt-20"></div>
+              <div className="flex justify-between">
+                <h1 className="flex flex-col font-medium text-3xl text-cyan-950">
+                  My name is Ruan and I'm<br></br>20 years old. About a year
+                  ago,
+                  <br></br>I started my studies in the<br></br>world of
+                  programming and<br></br>
+                  immediately fell in love. I work<br></br>as a Graphic Designer
+                  and<br></br>
+                  Videomaker, and decided to<br></br>migrate to this new field.
+                </h1>
+                <div className="px-24">
+                  <div className="rounded-md border-[2px] flex flex-col border-cyan-400 bg-slate-700 p-44"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col overflow-x-clip gap-36 pb-20 pt-10 max-w-auto px-[5%]">
+          <div className="flex flex-col md:justify-between px-60">
+            <h1 className="font-black text-cyan-400 text-5xl px-20">Contact</h1>
+          </div>
+        </div>
       </div>
     </div>
   );
