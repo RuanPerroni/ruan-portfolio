@@ -122,6 +122,22 @@ export function App() {
           </div>
         </div>
         <div className="flex flex-col h-px bg-slate-700 mx-auto max-w-4xl my-12 space-y-6 px-5"></div>
+        <div className="flex flex-col overflow-x-clip gap-36 pb-20 pt-10 max-w-auto px-[5%]">
+          <div className="flex flex-col md:justify-between px-60">
+            <h1 className="font-black text-cyan-400 text-5xl px-20">
+              Projects
+            </h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-rows-[380px] gap-6 pt-20 px-20">
+              <div className="rounded-md outline-none flex flex-col bg-slate-700 p-5 gap-3 text-left"></div>
+              <div className="rounded-md outline-none flex flex-col bg-slate-700 p-5 gap-3 text-left"></div>
+              <div className="rounded-md outline-none flex flex-col bg-slate-700 p-5 gap-3 text-left"></div>
+              <div className="rounded-md outline-none flex flex-col bg-slate-700 p-5 gap-3 text-left"></div>
+              <div className="rounded-md outline-none flex flex-col bg-slate-700 p-5 gap-3 text-left"></div>
+              <div className="rounded-md outline-none flex flex-col bg-slate-700 p-5 gap-3 text-left"></div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col h-px bg-slate-700 mx-auto max-w-4xl my-12 space-y-6 px-5"></div>
       </div>
     </div>
   );
