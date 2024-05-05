@@ -165,6 +165,25 @@ export function App() {
         <div className="flex flex-col overflow-x-clip gap-36 pb-20 pt-10 max-w-auto px-[5%]">
           <div className="flex flex-col md:justify-between px-60">
             <h1 className="font-black text-cyan-400 text-5xl px-20">Contact</h1>
+            <div className="flex gap-6 pt-20 px-20 justify-center">
+              <div className="rounded-full outline-none bg-cyan-200 w-[7rem] h-[7rem] items"></div>
+              <div className="rounded-full outline-none bg-cyan-200 w-[7rem] h-[7rem] items"></div>
+              <div className="rounded-full outline-none bg-cyan-200 w-[7rem] h-[7rem] items"></div>
+              <div className="rounded-full outline-none bg-cyan-200 w-[7rem] h-[7rem] items"></div>
+              <div className="rounded-full outline-none bg-cyan-200 w-[7rem] h-[7rem] items"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="sticky top-0 z-40 w-full lg:z-50 bg-white/95">
+        <div className="max-w-8xl mx-auto bg-white/20">
+          <div className="py-4 lg:px-8 lg:border-0 mx-4 lg:mx-0">
+            <div className="relative flex justify-center">
+              <h1 className="text-slate-700 text-1xl font-regular flex-none overflow-hidden md:w-auto">
+                Designed by
+                <span className="font-black"> Ruan Perroní</span> | 2024 ©
+              </h1>
+            </div>
           </div>
         </div>
       </div>
